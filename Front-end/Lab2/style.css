@@ -1,0 +1,34 @@
+.header {
+    height: 100px;
+    background-color: cadetblue;
+    margin: 3px;
+}
+.nav{
+    height: 40px;
+    background-color: purple;
+    margin: 3px;
+}
+.main {
+  display: flex;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 3;
+}
+
+.wrap div {
+  width: 32.3%;
+  background: rebeccapurple;
+  margin: 3px;
+  height: 100px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.aside {
+  background: aqua;
+  flex-grow: 1;
+  margin: 3px;
+}
