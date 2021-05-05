@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 1000px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+.gach-chan {
+  height: 1.5px;
+  width: 200px;
+  background-color: black;
+  margin-left: 100px;
+}
+
+table {
+  border: 2px solid black;
+  height: 120px;
+  width: 100px;
+  text-align: center;
+  margin: auto;
+}
+.image-left {
+  width: 20%;
+  padding-top: 70px;
+}
+.top-right {
+  padding-left: 100px;
+  padding-top: 15px;
+}
+.top-right .h2 {
+  padding-left: 100px;
+  margin-top: 5px;
+}
+.top-right h2 {
+  margin-top: 25px;
+  margin-left: 135px;
+}
+.top-right p {
+  margin-top: 15px;
+}
+.main {
+  margin-top: 20px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.main p {
+  margin-top: 5px;
+}
+.footer-left {
+  width: 50%;
+  margin-top: 20px;
+  padding-left: 45px;
+}
+.h11,
+.h22,
+.h33 {
+  font-weight: bold;
+}
+.h11 {
+  margin-left: 100px;
+}
+.h22 {
+  margin-left: 35px;
+}
+.h33 {
+  margin-left: 60px;
+}
+.h44 {
+  margin-left: 55px;
+}
+
+.footer-right {
+  width: 50%;
+  padding-left: 150px;
+}
+.h55 {
+  font-weight: bold;
+  margin-left: 80px;
+}
+.h66 {
+  margin-left: 40px;
+}

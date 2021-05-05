@@ -1,0 +1,33 @@
+html {
+  --color: red;
+  margin: 100;
+}
+.check-mau {
+  background: var(--color);
+  /* width: calc(100%-var()); */
+  width: 200px;
+  height: 200px;
+}
+
+@keyframes trai-tim {
+  0% {
+    
+    
+  }
+
+  100% {    
+    transform: scale(1.5);
+    /* position: fixed; */
+   
+  }
+}
+.trai-tim{
+    margin: auto;
+    width: fit-content;
+}
+.trai-tim img {
+  /* position: fixed; */
+  margin: auto;
+  transform: translateY(50%);
+  animation: trai-tim 1s infinite;
+}
